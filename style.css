@@ -451,6 +451,7 @@ section .title::after {
 }
 .contact .qtext {
   text-align: center;
+  font-family: "Ubuntu", sans-serif;
   font-size: 75px;
   font-weight: 600;
   color: #fff;
