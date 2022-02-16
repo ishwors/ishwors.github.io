@@ -289,6 +289,7 @@ section .title::after {
   background-color: #ebecf0;
 }
 .skills .title::after {
+  background-color: #ebecf0;
   content: "what i know";
 }
 .skills .skills-content .column {
