@@ -34,7 +34,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Digital Marketer", "Developer"],
+        // strings: ["Digital Marketer", "Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
