@@ -44,7 +44,7 @@ html {
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -53,10 +53,11 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background: #888;
+  border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: rgb(0, 126, 218);
 }
 
 .max-width {
@@ -298,12 +299,33 @@ section .title::after {
 .home .max-width .row {
   margin-right: 0;
 }
+.home-content {
+  position: relative;
+  text-align: center;
+}
+.home-content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 34;
+  top: calc(100% - 27em);
+  width: 18rem;
+  padding-bottom: 28rem;
+  visibility: hidden;
+  background-size: cover;
+}
+.home-content:hover {
+  filter: none;
+  transition: all 2s linear;
+}
+.home-content:hover:after {
+  background-image: url("../../assets/images/high-sky.jpg");
+  transition: visibility 0s 0.2s;
+  visibility: visible;
+}
 .home-content svg {
   filter: brightness(20);
   transition: all 2s linear;
-}
-.home-content svg:hover {
-  filter: none;
 }
 .home-content .text-1 {
   font-size: 27px;
@@ -365,10 +387,11 @@ section .title::after {
      object-position: center;
   border-radius: 6px;
   filter: grayscale(1);
-  transition: all 0.02s ease-out;
+  transition: all 0.4s ease-out;
 }
 .about-content .left img:hover {
   filter: none;
+  box-shadow: 6px 6px 2px 0 #d3d3d3;
 }
 .about .about-content .right {
   width: 55%;
@@ -623,14 +646,14 @@ section .title::after {
 
 /* footer section styling */
 footer {
-  background: #111;
+  background: rgb(0, 126, 218);
   padding: 15px 23px;
-  color: #fff;
+  color: #e0f4f7;
   text-align: center;
 }
 
 footer span a {
-  color: #222222;
+  color: #e0f4f7;
   text-decoration: none;
 }
 

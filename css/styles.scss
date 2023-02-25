@@ -17,17 +17,18 @@ html {
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
   background: #c7c5ee;
 }
 ::-webkit-scrollbar-thumb {
   background: #888;
+  border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: rgb(0, 126, 218);
 }
 
 .max-width {
@@ -387,12 +388,31 @@ section {
     }
   }
   &-content {
+    position: relative;
+    text-align: center;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 34;
+      top: calc(100% - 27em);
+      width: 18rem;
+      padding-bottom: 28rem;
+      visibility: hidden;
+      background-size: cover;
+    }
+    &:hover {
+      filter: none;
+      transition: all 2s linear;
+      &:after {
+        background-image: url("../../assets/images/high-sky.jpg");
+        transition: visibility 0s 0.2s;
+        visibility: visible;
+      }
+    }
     svg {
       filter: brightness(20);
       transition: all 2s linear;
-      &:hover {
-        filter: none;
-      }
     }
     .text-1 {
       font-size: 27px;
@@ -454,9 +474,12 @@ section {
         object-position: center;
         border-radius: 6px;
         filter: grayscale(1);
-        transition: all 0.02s ease-out;
+        transition: all 0.4s ease-out;
         &:hover {
           filter: none;
+          -webkit-box-shadow: 6px 6px 2px 0 #d3d3d3;
+          -moz-box-shadow: 6px 6px 2px 0 #d3d3d3;
+          box-shadow: 6px 6px 2px 0 #d3d3d3;
         }
       }
     }
@@ -492,6 +515,33 @@ section {
   .about-content .right a:hover {
     color: #222222;
     background: none;
+  }
+}
+
+.journey {
+  .title {
+    // margin: auto;
+    // position: relative;
+    // &::before {
+    //   content: " ";
+    //   position: absolute;
+    //   top: 50%;
+    //   height: 2px;
+    //   width: 80px;
+    //   margin: 0 10px;
+    //   display: inline-block;
+    //   zoom: 1;
+    // }
+    // &::after {
+    //   content: " ";
+    //   position: absolute;
+    //   top: 50%;
+    //   height: 2px;
+    //   width: 80px;
+    //   margin: 0 10px;
+    //   display: inline-block;
+    //   zoom: 1;
+    // }
   }
 }
 /* skills section styling */
@@ -677,13 +727,32 @@ section {
 }
 /* footer section styling */
 footer {
-  background: #111;
+  background: rgb(0, 126, 218);
+  // background: -moz-linear-gradient(
+  //   90deg,
+  //   rgba(0, 126, 218, 1) 0%,
+  //   rgba(222, 133, 170, 1) 66%,
+  //   rgba(214, 0, 79, 1) 100%
+  // );
+  // background: -webkit-linear-gradient(
+  //   90deg,
+  //   rgba(0, 126, 218, 1) 0%,
+  //   rgba(222, 133, 170, 1) 66%,
+  //   rgba(214, 0, 79, 1) 100%
+  // );
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(0, 126, 218, 1) 0%,
+  //   rgba(222, 133, 170, 1) 66%,
+  //   rgba(214, 0, 79, 1) 100%
+  // );
+  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#007eda",endColorstr="#d6004f",GradientType=1);
   padding: 15px 23px;
-  color: #fff;
+  color: #e0f4f7;
   text-align: center;
 }
 footer span a {
-  color: #222222;
+  color: #e0f4f7;
   text-decoration: none;
 }
 footer span a:hover {
