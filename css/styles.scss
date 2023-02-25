@@ -402,7 +402,6 @@ section {
       background-size: cover;
     }
     &:hover {
-      filter: none;
       transition: all 2s linear;
       &:after {
         background-image: url("../../assets/images/high-sky.jpg");
@@ -413,6 +412,9 @@ section {
     svg {
       filter: brightness(20);
       transition: all 2s linear;
+      &:hover {
+        filter: none;
+      }
     }
     .text-1 {
       font-size: 27px;

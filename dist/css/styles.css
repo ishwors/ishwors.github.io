@@ -315,7 +315,6 @@ section .title::after {
   background-size: cover;
 }
 .home-content:hover {
-  filter: none;
   transition: all 2s linear;
 }
 .home-content:hover:after {
@@ -326,6 +325,9 @@ section .title::after {
 .home-content svg {
   filter: brightness(20);
   transition: all 2s linear;
+}
+.home-content svg:hover {
+  filter: none;
 }
 .home-content .text-1 {
   font-size: 27px;
