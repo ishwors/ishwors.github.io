@@ -3,164 +3,291 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ishwor S </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ishwor Shrestha</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <!-- <link rel="icon" type="image/x-icon" href="/assets/images/fav-icon.png"> -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"></script>
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <link rel="icon" type="image/x-icon" href="/assets/svg/ishwors-favicon.svg">
-    <link rel="stylesheet" href="dist/css/styles.css">
+
+    <link rel="stylesheet" href="dist/css/styles.css" />
 </head>
 
 <body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-    <nav class="navbar">
-
-        <div class="max-width">
-            <div class="logo">
-                <a href="#home"><img src="assets/svg/ishwors-logo.svg" alt=""></div>
-            <!--<div class="logo"><a href="#">Ishwor<span>S.</span></a></div>
-            <div class="logo"><a href="#">Ishwor<span>S.</span></a></div>-->
-            <ul class="menu">
-                <li>
-                    <a href="#about" class="menu-btn"></a>
-                </li>
-                <!-- <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li> -->
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="">
+                    Ishwor Shrestha
+                </a>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <a class="navbar-item" href="#aboutMe">About me</a>
+                <a class="navbar-item" href="#portfolio">My Works</a>
+                <a class="navbar-item custom-button" href="contact.html#contactForm" target="_blank">Say Hello</a>
             </div>
         </div>
     </nav>
 
-    <!-- home section start -->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" zoomAndPan="magnify" viewBox="0 0 1331.25 356.250003" height="356.25" preserveAspectRatio="xMidYMid meet" version="1.0">
-                    <defs><g></g></defs><g fill="#100f0d" fill-opacity="1"><g transform="translate(113.336566, 233.431284)"><g><path d="M 12.078125 -120.84375 L 48.34375 -120.84375 L 48.34375 0 L 12.078125 0 Z M 12.078125 -120.84375 " class="svg-elem-1"></path></g></g></g><g fill="#100f0d" fill-opacity="1"><g transform="translate(219.493458, 233.431284)"><g><path d="M 54.375 1.71875 C 45.40625 1.71875 37.664062 0.570312 31.15625 -1.71875 C 24.65625 -4.019531 19.21875 -6.613281 14.84375 -9.5 C 9.664062 -12.71875 5.289062 -16.457031 1.71875 -20.71875 L 25.890625 -45.75 C 27.960938 -42.875 30.5 -40.398438 33.5 -38.328125 C 36.03125 -36.484375 39.164062 -34.8125 42.90625 -33.3125 C 46.644531 -31.820312 51.046875 -31.078125 56.109375 -31.078125 C 61.285156 -31.078125 64.878906 -31.820312 66.890625 -33.3125 C 68.910156 -34.8125 69.921875 -36.65625 69.921875 -38.84375 C 69.921875 -40.6875 68.335938 -42.097656 65.171875 -43.078125 C 62.003906 -44.054688 58.0625 -45.03125 53.34375 -46 C 48.625 -46.976562 43.5 -48.1875 37.96875 -49.625 C 32.445312 -51.070312 27.328125 -53.144531 22.609375 -55.84375 C 17.890625 -58.550781 13.945312 -62.117188 10.78125 -66.546875 C 7.625 -70.984375 6.046875 -76.710938 6.046875 -83.734375 C 6.046875 -89.140625 7.109375 -94.203125 9.234375 -98.921875 C 11.367188 -103.640625 14.445312 -107.753906 18.46875 -111.265625 C 22.5 -114.773438 27.445312 -117.535156 33.3125 -119.546875 C 39.1875 -121.566406 45.921875 -122.578125 53.515625 -122.578125 C 61.460938 -122.578125 68.398438 -121.566406 74.328125 -119.546875 C 80.253906 -117.535156 85.226562 -115.378906 89.25 -113.078125 C 93.851562 -110.203125 97.769531 -107.035156 101 -103.578125 L 76.828125 -78.546875 C 75.328125 -80.617188 73.539062 -82.460938 71.46875 -84.078125 C 69.632812 -85.453125 67.390625 -86.742188 64.734375 -87.953125 C 62.085938 -89.160156 58.925781 -89.765625 55.25 -89.765625 C 50.875 -89.765625 47.765625 -89.070312 45.921875 -87.6875 C 44.078125 -86.3125 43.15625 -84.992188 43.15625 -83.734375 C 43.15625 -81.890625 44.738281 -80.476562 47.90625 -79.5 C 51.070312 -78.519531 55.015625 -77.539062 59.734375 -76.5625 C 64.453125 -75.582031 69.570312 -74.375 75.09375 -72.9375 C 80.625 -71.5 85.75 -69.425781 90.46875 -66.71875 C 95.1875 -64.019531 99.125 -60.453125 102.28125 -56.015625 C 105.445312 -51.585938 107.03125 -45.863281 107.03125 -38.84375 C 107.03125 -32.976562 105.9375 -27.566406 103.75 -22.609375 C 101.570312 -17.660156 98.296875 -13.375 93.921875 -9.75 C 89.546875 -6.125 84.078125 -3.304688 77.515625 -1.296875 C 70.953125 0.710938 63.238281 1.71875 54.375 1.71875 Z M 54.375 1.71875 " class="svg-elem-2"></path></g></g></g><g fill="#100f0d" fill-opacity="1"><g transform="translate(521.378148, 233.431284)"><g><path d="M 0 -120.84375 L 37.984375 -120.84375 L 55.25 -64.734375 L 56.96875 -64.734375 L 65.609375 -92.359375 L 56.109375 -120.84375 L 93.21875 -120.84375 L 110.484375 -64.734375 L 112.21875 -64.734375 L 129.484375 -120.84375 L 167.46875 -120.84375 L 128.625 0 L 97.546875 0 L 84.59375 -40.578125 L 82.875 -40.578125 L 69.921875 0 L 38.84375 0 Z M 0 -120.84375 " class="svg-elem-3"></path></g></g></g><g fill="#100f0d" fill-opacity="1"><g transform="translate(716.188755, 233.431284)"><g><path d="M 68.1875 1.71875 C 59.789062 1.71875 51.878906 0.109375 44.453125 -3.109375 C 37.023438 -6.328125 30.519531 -10.753906 24.9375 -16.390625 C 19.363281 -22.035156 14.960938 -28.625 11.734375 -36.15625 C 8.515625 -43.695312 6.90625 -51.785156 6.90625 -60.421875 C 6.90625 -69.054688 8.515625 -77.140625 11.734375 -84.671875 C 14.960938 -92.210938 19.363281 -98.800781 24.9375 -104.4375 C 30.519531 -110.082031 37.023438 -114.515625 44.453125 -117.734375 C 51.878906 -120.960938 59.789062 -122.578125 68.1875 -122.578125 C 76.59375 -122.578125 84.503906 -120.960938 91.921875 -117.734375 C 99.347656 -114.515625 105.851562 -110.082031 111.4375 -104.4375 C 117.019531 -98.800781 121.421875 -92.210938 124.640625 -84.671875 C 127.867188 -77.140625 129.484375 -69.054688 129.484375 -60.421875 C 129.484375 -51.785156 127.867188 -43.695312 124.640625 -36.15625 C 121.421875 -28.625 117.019531 -22.035156 111.4375 -16.390625 C 105.851562 -10.753906 99.347656 -6.328125 91.921875 -3.109375 C 84.503906 0.109375 76.59375 1.71875 68.1875 1.71875 Z M 68.1875 -31.078125 C 71.414062 -31.078125 74.492188 -31.765625 77.421875 -33.140625 C 80.359375 -34.523438 82.921875 -36.484375 85.109375 -39.015625 C 87.296875 -41.546875 89.050781 -44.625 90.375 -48.25 C 91.695312 -51.875 92.359375 -55.929688 92.359375 -60.421875 C 92.359375 -64.910156 91.695312 -68.96875 90.375 -72.59375 C 89.050781 -76.21875 87.296875 -79.296875 85.109375 -81.828125 C 82.921875 -84.359375 80.359375 -86.3125 77.421875 -87.6875 C 74.492188 -89.070312 71.414062 -89.765625 68.1875 -89.765625 C 64.96875 -89.765625 61.890625 -89.070312 58.953125 -87.6875 C 56.015625 -86.3125 53.453125 -84.359375 51.265625 -81.828125 C 49.085938 -79.296875 47.332031 -76.21875 46 -72.59375 C 44.675781 -68.96875 44.015625 -64.910156 44.015625 -60.421875 C 44.015625 -55.929688 44.675781 -51.875 46 -48.25 C 47.332031 -44.625 49.085938 -41.546875 51.265625 -39.015625 C 53.453125 -36.484375 56.015625 -34.523438 58.953125 -33.140625 C 61.890625 -31.765625 64.96875 -31.078125 68.1875 -31.078125 Z M 68.1875 -31.078125 " class="svg-elem-4"></path></g></g></g><g fill="#100f0d" fill-opacity="1"><g transform="translate(880.221358, 233.431284)"><g><path d="M 12.078125 -117.21875 C 16.109375 -118.144531 20.539062 -119.007812 25.375 -119.8125 C 29.519531 -120.5 34.410156 -121.128906 40.046875 -121.703125 C 45.691406 -122.285156 51.910156 -122.578125 58.703125 -122.578125 C 68.367188 -122.578125 76.910156 -121.367188 84.328125 -118.953125 C 91.753906 -116.535156 97.96875 -113.253906 102.96875 -109.109375 C 107.976562 -104.960938 111.78125 -100.097656 114.375 -94.515625 C 116.96875 -88.929688 118.265625 -83.035156 118.265625 -76.828125 C 118.265625 -70.492188 117.113281 -65.109375 114.8125 -60.671875 C 112.507812 -56.242188 110.03125 -52.59375 107.375 -49.71875 C 104.269531 -46.382812 100.703125 -43.625 96.671875 -41.4375 L 119.125 0 L 80.28125 0 L 63.875 -31.078125 L 48.34375 -31.078125 L 48.34375 0 L 12.078125 0 Z M 60.421875 -62.15625 C 67.328125 -62.15625 72.503906 -63.617188 75.953125 -66.546875 C 79.410156 -69.484375 81.140625 -72.910156 81.140625 -76.828125 C 81.140625 -80.734375 79.351562 -84.15625 75.78125 -87.09375 C 72.21875 -90.03125 66.523438 -91.5 58.703125 -91.5 C 57.085938 -91.5 55.675781 -91.441406 54.46875 -91.328125 C 53.257812 -91.210938 52.195312 -91.097656 51.28125 -90.984375 C 50.125 -90.867188 49.144531 -90.753906 48.34375 -90.640625 L 48.34375 -62.15625 Z M 60.421875 -62.15625 " class="svg-elem-5"></path></g></g></g><g fill="#100f0d" fill-opacity="1"><g transform="translate(358.150415, 233.431284)"><g><path d="M 12.078125 -120.84375 L 48.34375 -120.84375 L 48.34375 -85.453125 L 77.6875 -85.453125 L 77.6875 -120.84375 L 113.9375 -120.84375 L 113.9375 0 L 77.6875 0 L 77.6875 -52.65625 L 48.34375 -52.65625 L 48.34375 0 L 12.078125 0 Z M 12.078125 -120.84375 " class="svg-elem-6"></path></g></g></g><g fill="#100f0d" fill-opacity="1"><g transform="translate(1070.677543, 233.431284)"><g><path d="M 54.375 1.71875 C 45.40625 1.71875 37.664062 0.570312 31.15625 -1.71875 C 24.65625 -4.019531 19.21875 -6.613281 14.84375 -9.5 C 9.664062 -12.71875 5.289062 -16.457031 1.71875 -20.71875 L 25.890625 -45.75 C 27.960938 -42.875 30.5 -40.398438 33.5 -38.328125 C 36.03125 -36.484375 39.164062 -34.8125 42.90625 -33.3125 C 46.644531 -31.820312 51.046875 -31.078125 56.109375 -31.078125 C 61.285156 -31.078125 64.878906 -31.820312 66.890625 -33.3125 C 68.910156 -34.8125 69.921875 -36.65625 69.921875 -38.84375 C 69.921875 -40.6875 68.335938 -42.097656 65.171875 -43.078125 C 62.003906 -44.054688 58.0625 -45.03125 53.34375 -46 C 48.625 -46.976562 43.5 -48.1875 37.96875 -49.625 C 32.445312 -51.070312 27.328125 -53.144531 22.609375 -55.84375 C 17.890625 -58.550781 13.945312 -62.117188 10.78125 -66.546875 C 7.625 -70.984375 6.046875 -76.710938 6.046875 -83.734375 C 6.046875 -89.140625 7.109375 -94.203125 9.234375 -98.921875 C 11.367188 -103.640625 14.445312 -107.753906 18.46875 -111.265625 C 22.5 -114.773438 27.445312 -117.535156 33.3125 -119.546875 C 39.1875 -121.566406 45.921875 -122.578125 53.515625 -122.578125 C 61.460938 -122.578125 68.398438 -121.566406 74.328125 -119.546875 C 80.253906 -117.535156 85.226562 -115.378906 89.25 -113.078125 C 93.851562 -110.203125 97.769531 -107.035156 101 -103.578125 L 76.828125 -78.546875 C 75.328125 -80.617188 73.539062 -82.460938 71.46875 -84.078125 C 69.632812 -85.453125 67.390625 -86.742188 64.734375 -87.953125 C 62.085938 -89.160156 58.925781 -89.765625 55.25 -89.765625 C 50.875 -89.765625 47.765625 -89.070312 45.921875 -87.6875 C 44.078125 -86.3125 43.15625 -84.992188 43.15625 -83.734375 C 43.15625 -81.890625 44.738281 -80.476562 47.90625 -79.5 C 51.070312 -78.519531 55.015625 -77.539062 59.734375 -76.5625 C 64.453125 -75.582031 69.570312 -74.375 75.09375 -72.9375 C 80.625 -71.5 85.75 -69.425781 90.46875 -66.71875 C 95.1875 -64.019531 99.125 -60.453125 102.28125 -56.015625 C 105.445312 -51.585938 107.03125 -45.863281 107.03125 -38.84375 C 107.03125 -32.976562 105.9375 -27.566406 103.75 -22.609375 C 101.570312 -17.660156 98.296875 -13.375 93.921875 -9.75 C 89.546875 -6.125 84.078125 -3.304688 77.515625 -1.296875 C 70.953125 0.710938 63.238281 1.71875 54.375 1.71875 Z M 54.375 1.71875 " class="svg-elem-7"></path></g></g></g><g fill="#100f0d" fill-opacity="1"><g transform="translate(1198.809211, 233.431284)"><g><path d="M 6.90625 -31.078125 L 37.984375 -31.078125 L 37.984375 0 L 6.90625 0 Z M 6.90625 -31.078125 " class="svg-elem-8"></path></g></g></g>
-                </svg>
-                <!-- <div class="text-1"><a href="https://forms.gle/WxuJ89JL4fSNbtDY6" target="_blank">&#128075&#128578</a> Hey there, I'm</div>
-                <div class="text-2">Ishwor S.</div> -->
-                <!-- <div class="text-3">Let's connect & grow Digitally.</div> -->
-                <!--<div class="text-3">Helping business to build brand & grow Digitally.</div>-->
-                <!--<div class="work"><a href="https://bit.ly/3uR0CxY" target="_blank"> {View My Works} </a></div>-->
-                <!-- <div class="connect"><a href="https://forms.gle/WxuJ89JL4fSNbtDY6" target="_blank">Let's Connect  <i class="fas fa-plus"></i></a></div>  -->
-            </div>
-        </div>
-    </section>
+    <main>
+        <section class="section-hero">
+            <div class="container">
+                <div class="column">
+                    <h1 class=" animate__animated animate__fadeIn">
+                        Unleashing the power of
+                        <span class="text-primary">Technology</span>.
+                    </h1>
+                    <p class=" animate__animated animate__fadeIn">
+                        I design and develop web application that
+                        <span class="text-primary">inspire, engage, & innovate</span>.
+                    </p>
 
-    <!-- about section start -->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="assets/images/ishwor-1.JPG" alt="">
-                </div>
-                <div class="column right">
-                    <div class="text">INTRODUCTION</div>
-                    <!-- <div class="text">I'm Ishwor_ <span class="typing-2"></span> </div> -->
-                    <p>
-                        Ishwor Shrestha is a highly motivated Information Technology student with a passion for marketing and digital product development. His skill in frontend web development and digital marketing, combined with his problem-solving and entrepreneurial mindset,
-                        make him a valuable asset to any team.
-                    </p>
-                    <p>
-                        Based in Nepal, Ishwor has honed his skills in utilizing various tools and technologies to create visually appealing websites and effective marketing campaigns. He is committed to exploring new ideas and expanding his knowledge, always seeking to innovate
-                        and create solutions that drive business success.
-                    </p>
-                    <p>
-                        With a focus on delivering high-quality work, Ishwor is an ideal candidate for a range of roles in the field of Information Technology and Marketing. He is a lifelong learner, dedicated to developing his skills and abilities to remain at the forefront
-                        of his field.
-                    </p>
-                    <p>
-                        Ishwor's strong work ethic, attention to detail, and ability to work collaboratively make him an asset to any organization. His commitment to meeting project deadlines and delivering exceptional work sets him apart as a professional who is dedicated to
-                        excellence.
-                    </p>
-                    <p>
-                        Overall, Ishwor Shrestha is a dedicated and driven individual with a passion for marketing and digital product development. His technical skills, entrepreneurial mindset, and commitment to lifelong learning make him a valuable addition to any team in
-                        the field of Information Technology and Marketing.
-                    </p>
-                    <a href="" target="_blank">Get Resume</a>
+                    <div class="img-wrapper avatar animate__animated animate__zoomIn">
+                        <img class="img-fluid" src="assets/images/ishwor-avatar-0.png" alt="" />
+                    </div>
+                    <div class="img-wrapper banner animate__animated animate__zoomIn">
+                        <img class="img-fluid" src="assets/images/desk.png" alt="" />
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- my journey section start -->
-    <!-- <section class="about journey" id="about">
-        <div class="max-width"><h2 class="title">My Journey</h2></div>
-            <div class="about-content journey-content">
-                <div class="column left">
-                    <img src="assets/images/ishwors.jpg" alt="">
-                </div>
-                <div class="column right">
-                    <div class="text">INTRODUCTION</div>
+        <section class="section-about bg-primary" id="aboutMe">
+            <div class="container">
+                <div class="column text-center">
+                    <h2>Hi, I'm Ishwor Shrestha. Nice to meet you.</h2>
                     <p>
-                        Ishwor Shrestha is a highly motivated Information Technology student with a passion for marketing and digital product development. His skill in frontend web development and digital marketing, combined with his problem-solving and entrepreneurial mindset, make him a valuable asset to any team.
+                        Details & Result oriented Web Development Professional with experience in valuable projects. Proven track record of initiating and delivering successful projects to improve user's experience and organization's productivity, who wants to add more value as a team player. 
                     </p>
-                    <p>
-                        Based in Nepal, Ishwor has honed his skills in utilizing various tools and technologies to create visually appealing websites and effective marketing campaigns. He is committed to exploring new ideas and expanding his knowledge, always seeking to innovate and create solutions that drive business success.
-                    </p> 
-                    <p>   
-                        With a focus on delivering high-quality work, Ishwor is an ideal candidate for a range of roles in the field of Information Technology and Marketing. He is a lifelong learner, dedicated to developing his skills and abilities to remain at the forefront of his field.
-                    </p>  
-                    <p>  
-                        Ishwor's strong work ethic, attention to detail, and ability to work collaboratively make him an asset to any organization. His commitment to meeting project deadlines and delivering exceptional work sets him apart as a professional who is dedicated to excellence.
-                    </p>    
-                    <p>
-                        Overall, Ishwor Shrestha is a dedicated and driven individual with a passion for marketing and digital product development. His technical skills, entrepreneurial mindset, and commitment to lifelong learning make him a valuable addition to any team in the field of Information Technology and Marketing.
-                    </p>
-                    <a href="https://drive.google.com/file/d/1vaMY4Tc9Cn7faEZg0-Cc1fyvnOd7Hjmo/view?usp=sharing" target="_blank">Get CV</a>
                 </div>
             </div>
-        </div>
-    </section> -->
+        </section>
 
-
-    <!-- contact section start -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div class="text">Send mail at <a href="mailto:hello.ishwors@gmail.com">hello.ishwors@gmail.com</a>
-                <!-- or <a href="https://forms.gle/WxuJ89JL4fSNbtDY6" target="_blank">Connect Here <i class="fas fa-plus"></i></a>. -->
+        <section class="section-skill">
+            <div class="container">
+                <div class="column box text-center">
+                    <h2>Core Competencies</h2>
+                    <p>
+                        My skillsets that I have acquired over the years.
+                    </p>
+                    <div class="skill-wrapper">
+                        <ul class="row list-unstyled justify-content-center skill-list">
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Meta Ads - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://assets.stickpng.com/images/61fae2d395e6ca00047b4f12.png" alt="Meta Ads - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Google Ads - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://assets.stickpng.com/images/61fa8896eec4c40004bacd39.png" alt="Google Ads - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Canva - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://assets.stickpng.com/thumbs/62b1fefc8309c32ce1623ded.png" alt="Canva - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Figma - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format" alt="Figma - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="HTML - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png" alt="HTML - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title=""> 
+                                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="CSS - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="Bootstrap - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Tailwind CSS - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://www.cdnlogo.com/logos/t/34/tailwind-css.svg" alt="Tailwind CSS - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="JavaScript - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png" alt="JavaScript - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="React - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://assets.stickpng.com/images/62a74dfe223343fbc2207d02.png" alt="React - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Next.JS - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://static-00.iconduck.com/assets.00/nextjs-icon-2048x1234-pqycciiu.png" alt="Next.JS - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Ant Design - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://seeklogo.com/images/A/ant-design-logo-EAB6B3D5D9-seeklogo.com.png" alt="Ant Design - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Material UI - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://mui.com/static/icons/512x512.png" alt="Material UI - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="VS Code - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="VS Code - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Git - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png" alt="Git - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="GitLab - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://1000logos.net/wp-content/uploads/2022/03/Gitlab-Logo.png" alt="GitLab - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="GitHub - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png" alt="GitHub - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="Trello - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://1000logos.net/wp-content/uploads/2021/05/Trello-logo.png" alt="Trello - Ishwor Shrestha">
+                                </div>
+                            </li>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt-3">
+                                <div class="icon-item" title="WordPress - Ishwor Shrestha"> 
+                                    <img class="img-fluid" src="https://logos-world.net/wp-content/uploads/2020/10/WordPress-Logo.png" alt="WordPress - Ishwor Shrestha">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <br>
-            <!-- <div class="qtext"> Together, we can. </div> -->
+        </section>
 
-            <br>
-            <!-- <div class="socialmedia"> 
-                    <a href="https://github.com/ishwors" target="_blank" >GITHUB |</a>
-                    <a href="https://dribbble.com/ishwors" target="_blank"> DRIBBBLE |</a>
-                    <a href="https://realishwor.medium.com" target="_blank"> MEDIUM |</a>
-                    <a href="https://www.linkedin.com/in/realishwor" target="_blank"> LINKEDIN</a>
-                </div> -->
+        <section class="section-work" id="portfolio" style="top: offset; scroll-behavior: smooth;">
+            <div class="container">
+                <div class="column text-center">
+                    <h2>Recent Works</h2>
+                    <p>
+                        Here are my work portfolio.
+                    </p>
+
+                    <div class="work-wrapper">
+                        <ul class="row list-unstyled justify-content-center skill-list">
+                            <li class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                                <div class="work-item">
+                                    <figure class="image-card">
+                                        <img class="img-fluid" src="assets/images/brands/NIC.png" alt="NIC ASIA - Project">
+                                        <figcaption>
+                                            <div class="d-flex flex-column justify-content-center align-items-center h-100 w-100">
+                                                <p>NIC Asia Bank - largest commercial bank network in Nepal</p>
+                                                <a class="custom-button" href="https://nicasiabank.com" target="_blank">
+                                                   Visit Website <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                            </div>
+                                        </figcaption>
+                                        <div class="overlay"></div>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                                <div class="work-item">
+                                    <figure class="image-card">
+                                        <img class="img-fluid" src="assets/images/brands/NABIL.png" alt="Nabil Bank - Project">
+                                        <figcaption>
+                                            <div class="d-flex flex-column justify-content-center align-items-center h-100 w-100">
+                                                <p>Nabil Bank - very first private commercial bank in Nepal</p>
+                                                <a class="custom-button" href="https://nabilbank.com" target="_blank">
+                                                   Visit Website <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                            </div>
+                                        </figcaption>
+                                        <div class="overlay"></div>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                                <div class="work-item">
+                                    <figure class="image-card">
+                                        <img class="img-fluid" src="assets/images/brands/Drop.png" alt="Drop - Project">
+                                        <figcaption>
+                                            <div class="d-flex flex-column justify-content-center align-items-center h-100 w-100">
+                                                <p>Drop Positioning System - Warehouse Operation Management.</p>
+                                                <a class="custom-button" href="https://drop.com.sg" target="_blank">
+                                                   Visit Website <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                            </div>
+                                        </figcaption>
+                                        <div class="overlay"></div>
+                                    </figure>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-contact">
+            <div class="container">
+                <div class="column box d-flex align-items-center justify-content-between flex-wrap">
+                    <div class="d-flex align-items-baseline flex-wrap gap-1">
+                        <h2 class="me-2">Start a project</h2>
+                        <p>Interested in working together?</p>
+                    </div>
+                    <a class="custom-button my-3" href="contact.html" target="_blank">
+                        Let's Start <i class="fa-solid fa-chevron-right"></i>
+                     </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary">
+        <div class="container main-footer text-center">
+            <h3>Living, learning, and growing up<br />one day at a time.</h3>
+            <div class="social-icons">
+                <a class="mx-1" href="https://github.com/ishwors" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a class="mx-1" href="https://www.linkedin.com/in/ishwors/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
         </div>
-    </section>
-
-    <!-- footer section start -->
-    <footer>
-        <span>Thank You</span>
+        <div class="low-footer container py-4 px-0">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>Copyright © 2024. All rights reserved.</div>
+                <div><a class="text-decoration-none" href="https://maps.app.goo.gl/Py6U7DMxtKyFxjVNA" target="_blank">Lalitpur, Nepal</a></div>
+            </div>
+        </div>
     </footer>
 
-
-
-
     <script src="js/script.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-
-
-
-
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        ScrollReveal().reveal('.section-about .column', { delay: 20, duration: 1250 });
+        ScrollReveal().reveal('.section-skill .icon-item', { delay: 0, duration: 1250 });
+        ScrollReveal().reveal('.section-work .image-card', { delay: 0, duration: 1250 });
+        ScrollReveal().reveal('.section-contact .column div', { delay: 20, duration: 1250 });
+        ScrollReveal().reveal('footer .main-footer', { delay: 20, duration: 1250 });
+        ScrollReveal().reveal('footer .low-footer', { delay: 10, duration: 1250 });
+    </script>
 </body>
 
 </html>

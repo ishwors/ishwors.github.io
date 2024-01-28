@@ -1,31 +1,216 @@
-@font-face {
-    font-family: "TT Chocolates";
-    font-display: swap;
-    font-weight: 400;
-    font-style: light;
-    src: url("../../assets/fonts/TT Chocolates Regular.woff") format("truetype");
-}
+// Agrandir Fonts
 
 @font-face {
-    font-family: "TT Chocolates";
-    font-display: swap;
-    font-weight: 500;
+    font-family: 'Agrandir';
     font-style: normal;
-    src: url("../../assets/fonts/TT Chocolates Medium.woff") format("truetype");
+    font-weight: 400;
+    src: local('Agrandir Regular'), url('../../assets/fonts/agrandir-font/Agrandir-Regular.otf') format('opentype');
 }
 
 @font-face {
-    font-family: "TT Chocolates";
-    font-display: swap;
+    font-family: 'Agrandir ';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Agrandir UltraLight'), url('Agrandir-UltraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Agrandir Light'), url('Agrandir-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Agrandir Medium'), url('Agrandir-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    font-style: normal;
     font-weight: 600;
-    font-style: bold;
-    src: url("../../assets/fonts/TT Chocolates DemiBold.woff") format("truetype");
+    src: local('Agrandir SemiBold'), url('Agrandir-SemiBold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: "TT Chocolates";
-    font-display: swap;
+    font-family: 'Agrandir';
+    font-style: normal;
     font-weight: 700;
-    font-style: bold;
-    src: url("../../assets/fonts/TT Chocolates Bold.woff") format("truetype");
+    src: local('Agrandir Bold'), url('../../assets/fonts/agrandir-font/Agrandir-TextBold.otf') format('opentype');
 }
+
+@font-face {
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Agrandir ExtraBold'), url('../../assets/fonts/agrandir-font/Agrandir-GrandHeavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Agrandir Black'), url('Agrandir-Black.otf') format('opentype');
+}
+
+
+
+
+
+// Mona Sans Fonts
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mona Sans Regular'), url('../../assets/fonts/mona-sans-font/Mona-Sans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mona Sans ';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Mona Sans UltraLight'), url('../../assets/fonts/mona-sans-font/Mona-Sans-UltraLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Mona Sans Light'), url('../../assets/fonts/mona-sans-font/Mona-Sans-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Mona Sans Medium'), url('../../assets/fonts/mona-sans-font/Mona-Sans-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Mona Sans SemiBold'), url('../../assets/fonts/mona-sans-font/Mona-Sans-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Mona Sans Bold'), url('../../assets/fonts/mona-sans-font/Mona-Sans-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Mona Sans ExtraBold'), url('../../assets/fonts/mona-sans-font/Mona-Sans-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Mona Sans Black'), url('../../assets/fonts/mona-sans-font/Mona-Sans-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Mona Sans ExtraLight'), url('../../assets/fonts/mona-sans-font/Mona-Sans.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mona Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Mona Sans Thin'), url('../../assets/fonts/mona-sans-font/Mona-Sans.woff') format('woff');
+}
+
+
+
+
+
+
+// Magazine Grotesque Fonts
+
+@font-face {
+    font-family: 'Magazine Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Magazine Grotesque Regular'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Magazine Grotesque ';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Magazine Grotesque UltraLight'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-extralight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Magazine Grotesque';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Magazine Grotesque Light'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Magazine Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Magazine Grotesque Medium'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Magazine Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Magazine Grotesque SemiBold'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Magazine Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Magazine Grotesque Bold'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Magazine Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Magazine Grotesque ExtraBold'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-heavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Magazine Grotesque';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Magazine Grotesque Black'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Magazine Grotesque';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Magazine Grotesque ExtraLight'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-extralight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Magazine Grotesque';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Magazine Grotesque Thin'), url('../../assets/fonts/magazine-grotesque-font/magazinegrotesque-thin.otf') format('opentype');
+}
+
+
+
+
+
+
