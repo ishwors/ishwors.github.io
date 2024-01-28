@@ -11318,6 +11318,13 @@ section p {
   padding-top: 120px;
   padding-bottom: 80px;
 }
+.section-work .column a.custom-button.see-more {
+  color: #2E7E7E;
+  border-color: #2E7E7E;
+}
+.section-work .column a.custom-button.see-more:hover {
+  color: white;
+}
 .section-contact {
   padding-top: 20px;
   margin-bottom: -5rem;
