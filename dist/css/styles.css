@@ -11110,7 +11110,7 @@ a.custom-button:hover {
 .icon-item {
   max-height: 100px;
   height: 100%;
-  padding: 12px;
+  padding: 20px 12px;
   background-color: #FAFAFA;
   border-radius: 6px;
   overflow: hidden;
