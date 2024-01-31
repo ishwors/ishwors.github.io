@@ -11360,6 +11360,29 @@ section p {
   padding-top: 5rem;
   padding-bottom: 7rem;
 }
+.section-cv .title-text {
+  font-family: "Magazine Grotesque", sans-serif;
+  font-weight: 700;
+}
+.section-cv .cv-section__title h4 {
+  font-size: 1.25rem;
+}
+.section-cv .cv-section__details {
+  font-size: 1rem;
+}
+.section-cv .cv-section__details h5 {
+  font-size: 1.1rem;
+}
+.section-cv .cv-section__details span {
+  font-size: 1rem;
+}
+.section-cv .cv-section__details .detail-item__head h5 {
+  font-weight: 600;
+}
+.section-cv .cv-section__details .detail-item ul > li * {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
 
 .contact-form__wrapper iframe {
   min-height: 560px;
