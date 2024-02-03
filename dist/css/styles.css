@@ -11173,6 +11173,15 @@ section p {
   font-size: 1.25rem;
 }
 
+@media screen and (max-width: 425.98px) {
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+  }
+  section p {
+    font-size: 1rem;
+  }
+}
 .box {
   background-color: #ffffff;
   border-radius: 12px;
@@ -11182,6 +11191,11 @@ section p {
   padding: 2rem;
 }
 
+@media screen and (max-width: 425.98px) {
+  .box {
+    padding: 1.5rem;
+  }
+}
 .contact-card {
   padding: 1rem 1.5rem;
   background: rgba(255, 255, 255, 0.2);
@@ -11190,6 +11204,7 @@ section p {
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 12px;
 }
 .contact-card .icon-wrapper {
   height: 5rem;
@@ -11217,6 +11232,24 @@ section p {
   color: inherit;
 }
 
+@media screen and (max-width: 425.98px) {
+  .contact-card {
+    padding: 1rem;
+    border-radius: 0.8rem;
+  }
+  .contact-card .icon-wrapper {
+    height: 3rem;
+    width: 3rem;
+    padding: 0.8rem;
+    font-size: 22px;
+  }
+  .contact-card .text-wrapper h4 {
+    font-size: 1rem;
+  }
+  .contact-card .text-wrapper a {
+    font-size: 1.1rem;
+  }
+}
 .navbar {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
@@ -11361,6 +11394,47 @@ section p {
   padding-bottom: 7rem;
 }
 
+@media screen and (max-width: 425.98px) {
+  .section-hero {
+    padding-top: 4rem;
+  }
+  .section-hero .column {
+    padding: 0 1rem;
+  }
+  .section-hero .column h1 {
+    font-size: 2.5rem;
+  }
+  .section-about {
+    margin-top: -0.35rem;
+    padding-top: 3rem;
+  }
+  .section-about::before {
+    opacity: 0.2;
+    filter: drop-shadow(1px 2px 2px rgb(0, 0, 0));
+  }
+  .section-about .column {
+    max-width: 90%;
+  }
+  .section-skill .column.box {
+    padding: 2rem 1.25rem;
+  }
+  .section-work {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+  }
+  .section-contact {
+    padding-top: 1rem;
+    margin-bottom: -6rem;
+  }
+  .section-contact .custom-button {
+    margin-right: auto;
+    font-size: 16px;
+  }
+  .section-mainContact {
+    padding-top: 3.4rem;
+    padding-bottom: 4rem;
+  }
+}
 .contact-form__wrapper iframe {
   min-height: 560px;
   height: 100%;
@@ -11410,6 +11484,15 @@ section p {
   color: #151919;
 }
 
+@media screen and (max-width: 425.98px) {
+  .main-footer {
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+  }
+  .main-footer h3 {
+    font-size: 1.25rem;
+  }
+}
 .low-footer {
   border-top: 1px solid rgba(223, 223, 223, 0.2);
   padding-top: 1.5rem;
@@ -11426,4 +11509,16 @@ section p {
 .low-footer div:hover,
 .low-footer a:hover {
   color: #DFDFDF;
+}
+
+@media screen and (max-width: 425.98px) {
+  .low-footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .low-footer > div {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 0.4rem 1rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
