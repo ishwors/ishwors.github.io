@@ -11108,15 +11108,18 @@ a.custom-button:hover {
 }
 
 .icon-item {
-  max-height: 100px;
-  height: 100%;
-  padding: 20px 12px;
-  background-color: #FAFAFA;
-  border-radius: 6px;
-  overflow: hidden;
+  height: 80px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1 !important;
 }
 .icon-item img {
-  height: inherit;
+  max-width: 100%;
+  width: -moz-max-content !important;
+  width: max-content !important;
+  max-height: 100%;
 }
 
 .image-card {

@@ -71,18 +71,19 @@ a.custom-button {
 }
 
 .icon-item {
-    max-height: 100px;
-    height: 100%;
-    padding: 20px 12px;
-    background-color: $bg-white;
-    border-radius: 6px;
-    overflow: hidden;
+    height: 80px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1 !important;
 
     img {
-        height: inherit;
+        max-width: 100%;
+        width: max-content !important;
+        max-height: 100%;
     }
 }
-
 .image-card {
     border-radius: 12px;
     overflow: hidden;
