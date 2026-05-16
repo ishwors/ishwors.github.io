@@ -1,716 +1,383 @@
 <!DOCTYPE html>
-<!-- Created By Ishwor Shrestha -->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Ishwor Shrestha</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ishwor Shrestha — Full-Stack Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Geist:wght@300;400;500&family=Geist+Mono:wght@400&display=swap"
+    rel="stylesheet">
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      crossorigin="anonymous"
-    />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WWL5NTZP8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    />
+    gtag("config", "G-6WWL5NTZP8");
+  </script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Meta Pixel Code -->
+  <script>
+    !(function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod
+          ? n.callMethod.apply(n, arguments)
+          : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = "2.0";
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(
+      window,
+      document,
+      "script",
+      "https://connect.facebook.net/en_US/fbevents.js"
+    );
+    fbq("init", "1852771481822784");
+    fbq("track", "PageView");
+  </script>
+  <noscript><img height="1" width="1" style="display: none"
+      src="https://www.facebook.com/tr?id=1852771481822784&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
 
-    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
 
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="/assets/images/Ishwor Shrestha.png"
-    />
+<body>
 
-    <link rel="stylesheet" href="dist/css/styles.css" />
+  <nav>
+    <a href="#" class="nav-logo">IshworS.</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#work">Work</a>
+      <a href="mailto:hello@ishwors.com.np" class="nav-hire">Say Hello</a>
+    </div>
+  </nav>
 
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-6WWL5NTZP8"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-6WWL5NTZP8");
-    </script>
-
-    <!-- Meta Pixel Code -->
-    <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-      );
-      fbq("init", "1852771481822784");
-      fbq("track", "PageView");
-    </script>
-    <noscript
-      ><img
-        height="1"
-        width="1"
-        style="display: none"
-        src="https://www.facebook.com/tr?id=1852771481822784&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-  </head>
-
-  <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item" href=""> Ishwor Shrestha </a>
-        </div>
-        <div class="navbar-menu" id="navMenu">
-          <a class="navbar-item" href="#aboutMe">About me</a>
-          <a class="navbar-item" href="#portfolio">My Works</a>
-          <a
-            class="navbar-item custom-button"
-            href="contact.html#contactForm"
-            target="_blank"
-            >Say Hello</a
-          >
-        </div>
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-left">
+      <div class="hero-kicker">
+        <span class="kicker-line"></span>
+        Full-Stack Software Engineer
       </div>
-    </nav>
-
-    <main>
-      <section class="section-hero">
-        <div class="container">
-          <div class="column">
-            <h1 class="animate__animated animate__fadeIn">
-              Unleashing the power of
-              <span class="text-primary">Technology</span>.
-            </h1>
-            <p class="animate__animated animate__fadeIn">
-              I am a modern software engineering practitioner,
-              <span class="text-primary">innovating impactful solutions</span>.
-            </p>
-
-            <div class="img-wrapper avatar animate__animated animate__zoomIn">
-              <img
-                class="img-fluid"
-                src="assets/images/ishwor-avatar-0.png"
-                alt="Ishwor Shrestha"
-              />
-            </div>
-            <div class="img-wrapper banner animate__animated animate__zoomIn">
-              <img
-                class="img-fluid"
-                src="assets/images/desk.png"
-                alt="Ishwor Shrestha - Web Development"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-about bg-primary" id="aboutMe">
-        <div class="container">
-          <div class="column text-center">
-            <h2>Hi, I'm Ishwor Shrestha. Nice to meet you.</h2>
-            <p>
-              As a software engineer proficient in both frontend and backend
-              development, I'm deeply immersed in refining my skills in C#,
-              ASP.NET WebAPI, unit testing, and cloud deployment on Azure and
-              AWS. My focus on modern software engineering drives me to craft
-              innovative solutions.
-            </p>
-            <p>
-              With prior experience as a Frontend Developer, I specialized in
-              creating user interfaces for diverse projects, including banking
-              and foreign ventures. My technical repertoire spans JavaScript,
-              Python, HTML, CSS, SQL, .NET Core, React, and Bootstrap, alongside
-              proficiency in various development tools and deployment
-              technologies.
-            </p>
-            <p>
-              My strength lies in effective communication, problem-solving, and
-              collaborative teamwork, making me an asset in cross-functional
-              environments. Committed to continuous learning, I am poised to
-              deliver impactful software solutions, fueled by my diverse skill
-              set and proven experience.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-skill">
-        <div class="container">
-          <div class="column box text-center">
-            <h2>Core Competencies</h2>
-            <p>My skillsets that I have acquired over the years.</p>
-            <div class="skill-wrapper">
-              <div id="skill-list-id" class="owl-carousel owl-theme skill-list">
-                <div class="icon-item" title="C_Sharp - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/C_Sharp_Logo_2023.png"
-                    alt="C Sharp - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title=".NET - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/Microsoft_.NET_logo.png"
-                    alt=".NET - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="AWS - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/AWS-Logo.png"
-                    alt="AWS - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Azure - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/azure-logo.png"
-                    alt="Azure - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Docker - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/docker-logo.png"
-                    alt="Docker - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Firebase - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/firebase-logo.svg"
-                    alt="Firebase - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Github Actions - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/GitHubAction-logo.png"
-                    alt="GitHub Actions - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="jMeter - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/jmeter-logo.png"
-                    alt="jMeter - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Kubernetes - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/Kubernetes-Logo.png"
-                    alt="Kubernetes- Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Linux - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/Linux-logo.png"
-                    alt="Linux - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="MS SQL - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/MS-SQL-logo.png"
-                    alt="MS SQL Server - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="MySQL - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/MySQL-logo.png"
-                    alt="MySQL - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Nginx - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/nginx-logo.svg"
-                    alt="Nginx - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="npm - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/Npm-logo.png"
-                    alt="NPM - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="PostgreSQL - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/PostgreSQL-logo.png"
-                    alt="PostgreSQL - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Postman - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/postman-logo.png"
-                    alt="Postman - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="RabbitMQ - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/rabbitmq-logo.svg"
-                    alt="RabbitMQ - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="redis - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/redis-logo.png"
-                    alt="Redis - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="slack - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/slack-logo.png"
-                    alt="Slack - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="SonaeQube - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/Sonarqube-logo.png"
-                    alt="SonarQube - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="SQLite - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/SQLite-logo.png"
-                    alt="SQLite - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Visual Studio - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/Visual_Studio.png"
-                    alt="Visual Studio - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="Vite - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/vite-logo.png"
-                    alt="Vite - Ishwor Shrestha"
-                  />
-                </div>
-                <div class="icon-item" title="yarn - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/yarn-logo.png"
-                    alt="yarn - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Meta Ads - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/meta-logo.png"
-                    alt="Meta Ads - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Google Ads - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/google-ads-logo.png"
-                    alt="Google Ads - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Canva - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/canva-logo.png"
-                    alt="Canva - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Figma - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/figma-logo.png"
-                    alt="Figma - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="HTML - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/HTML-logo.png"
-                    alt="HTML - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="">
-                  <img
-                    class=""
-                    src="assets/images/brands/css--logo.png"
-                    alt="CSS - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="CSS - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/bootstrap-logo.png"
-                    alt="Bootstrap - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Tailwind CSS - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/tailwind-css-logo.svg"
-                    alt="Tailwind CSS - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="JavaScript - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/JS-logo.png"
-                    alt="JavaScript - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="React - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/react-logo.png"
-                    alt="React - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Next.JS - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/nextjs-logo.png"
-                    alt="Next.JS - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Ant Design - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/ant-design-logo.png"
-                    alt="Ant Design - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Material UI - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/mui-logo.png"
-                    alt="Material UI - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="VS Code - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/Visual_Studio_Code-logo.webp"
-                    alt="VS Code - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Git - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/git-logo.png"
-                    alt="Git - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="GitLab - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/gitlab-logo.png"
-                    alt="GitLab - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="GitHub - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/github-logo.png"
-                    alt="GitHub - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="Trello - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/trello-logo.png"
-                    alt="Trello - Ishwor Shrestha"
-                  />
-                </div>
-
-                <div class="icon-item" title="WordPress - Ishwor Shrestha">
-                  <img
-                    class=""
-                    src="assets/images/brands/wordpress-Logo.png"
-                    alt="WordPress - Ishwor Shrestha"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="section-work"
-        id="portfolio"
-        style="top: offset; scroll-behavior: smooth"
-      >
-        <div class="container">
-          <div class="column text-center">
-            <h2>Recent Works</h2>
-            <p>Here are my work portfolio.</p>
-
-            <div class="work-wrapper">
-              <ul class="row list-unstyled justify-content-center skill-list">
-                <li class="col-lg-4 col-md-6 col-sm-12 mt-3">
-                  <div class="work-item">
-                    <figure class="image-card">
-                      <img
-                        class="img-fluid"
-                        src="assets/images/brands/NIC.png"
-                        alt="NIC ASIA - Project"
-                      />
-                      <figcaption>
-                        <div
-                          class="d-flex flex-column justify-content-center align-items-center h-100 w-100"
-                        >
-                          <p>
-                            NIC Asia Bank - largest commercial bank network in
-                            Nepal
-                          </p>
-                          <a
-                            class="custom-button"
-                            href="https://nicasiabank.com"
-                            target="_blank"
-                          >
-                            Visit Website
-                            <i class="fa-solid fa-angle-right"></i>
-                          </a>
-                        </div>
-                      </figcaption>
-                      <div class="overlay"></div>
-                    </figure>
-                  </div>
-                </li>
-                <li class="col-lg-4 col-md-6 col-sm-12 mt-3">
-                  <div class="work-item">
-                    <figure class="image-card">
-                      <img
-                        class="img-fluid"
-                        src="assets/images/brands/NABIL.png"
-                        alt="Nabil Bank - Project"
-                      />
-                      <figcaption>
-                        <div
-                          class="d-flex flex-column justify-content-center align-items-center h-100 w-100"
-                        >
-                          <p>
-                            Nabil Bank - very first private commercial bank in
-                            Nepal
-                          </p>
-                          <a
-                            class="custom-button"
-                            href="https://nabilbank.com"
-                            target="_blank"
-                          >
-                            Visit Website
-                            <i class="fa-solid fa-angle-right"></i>
-                          </a>
-                        </div>
-                      </figcaption>
-                      <div class="overlay"></div>
-                    </figure>
-                  </div>
-                </li>
-                <li class="col-lg-4 col-md-6 col-sm-12 mt-3">
-                  <div class="work-item">
-                    <figure class="image-card">
-                      <img
-                        class="img-fluid"
-                        src="assets/images/brands/Drop.png"
-                        alt="Drop - Project"
-                      />
-                      <figcaption>
-                        <div
-                          class="d-flex flex-column justify-content-center align-items-center h-100 w-100"
-                        >
-                          <p>
-                            Drop Positioning System - Warehouse Operation
-                            Management.
-                          </p>
-                          <a
-                            class="custom-button"
-                            href="https://drop.com.sg"
-                            target="_blank"
-                          >
-                            Visit Website
-                            <i class="fa-solid fa-angle-right"></i>
-                          </a>
-                        </div>
-                      </figcaption>
-                      <div class="overlay"></div>
-                    </figure>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <a
-              class="see-more custom-button"
-              href="https://www.linkedin.com/in/ishwors/details/projects/"
-              target="_blank"
-              >See more<i class="fa-solid fa-chevron-right"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-contact">
-        <div class="container">
-          <div
-            class="column box d-flex align-items-center justify-content-between flex-wrap"
-          >
-            <div class="d-flex align-items-baseline flex-wrap gap-1">
-              <h2 class="me-2">Start a project</h2>
-              <p>Interested in working together?</p>
-            </div>
-            <a class="custom-button my-3" href="contact.html" target="_blank">
-              Let's Start <i class="fa-solid fa-chevron-right"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="bg-primary">
-      <div class="container main-footer text-center">
-        <h3>Living, learning, and growing up<br />one day at a time.</h3>
-        <div class="social-icons">
-          <a
-            class="icon-wrapper"
-            href="https://github.com/ishwors"
-            target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a
-            class="icon-wrapper"
-            href="https://www.linkedin.com/in/ishwors/"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a
-            class="icon-wrapper"
-            href="https://twitter.com/realishwor"
-            target="_blank"
-            ><i class="fa-brands fa-x-twitter"></i
-          ></a>
-          <!-- <a class="icon-wrapper" href="https://stackoverflow.com/users/15869862/ishwor-shrestha" target="_blank"><i
-                class="fa-brands fa-stack-overflow"></i></a>
-            <a class="icon-wrapper" href="https://ishwors.medium.com/" target="_blank"><i
-                class="fa-brands fa-medium"></i></a> -->
-        </div>
+      <h1>I Build Software<br>That Works<br><em>End to End.</em></h1>
+      <p class="hero-bio">
+        Full-stack engineer with roots in frontend and a deepened focus on backend systems, APIs, database
+        architecture, and cross-platform integrations. I work across the stack: React and Next.js on the client, .NET
+        and Python on the server, with a keen interest in product and entrepreneurship.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn-solid">View my work ↓</a>
+        <a href="https://github.com/ishwors" target="_blank" class="btn-outline">GitHub ↗</a>
       </div>
-      <div class="low-footer container py-4">
-        <div class="d-flex justify-content-between align-items-center">
-          <div><a>Copyright © 2024. All rights reserved.</a></div>
-          <div>
-            <a
-              class="text-decoration-none"
-              href="https://maps.app.goo.gl/Py6U7DMxtKyFxjVNA"
-              target="_blank"
-              >Lalitpur, Nepal</a
-            >
+    </div>
+
+    <!-- Minimal full-stack architecture SVG -->
+    <div class="hero-visual">
+      <svg viewBox="0 0 280 344" width="280" height="344" fill="none" xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true">
+        <defs>
+          <marker id="arw" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto">
+            <path d="M0,1 L6,3.5 L0,6Z" fill="#c4bfb7" />
+          </marker>
+        </defs>
+
+        <g class="svg-float">
+          <!-- CLIENT -->
+          <rect x="54" y="16" width="172" height="54" rx="9" fill="#ffffff" stroke="#dedad3" stroke-width="1" />
+          <text x="140" y="38" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8.5"
+            letter-spacing="0.12em" fill="#9c9890">CLIENT</text>
+          <text x="140" y="56" text-anchor="middle" font-family="'Fraunces',serif" font-size="13.5" fill="#141210">React
+            · Next.js</text>
+
+          <!-- flow line 1 -->
+          <line x1="140" y1="70" x2="140" y2="106" stroke="#dedad3" stroke-width="1.2" stroke-dasharray="4 3"
+            marker-end="url(#arw)">
+            <animate attributeName="stroke-dashoffset" from="0" to="-14" dur="1.3s" repeatCount="indefinite" />
+          </line>
+          <rect x="116" y="82" width="48" height="14" rx="3" fill="var(--bg)" />
+          <text x="140" y="93" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8" fill="#9c9890"
+            letter-spacing="0.08em">HTTPS</text>
+
+          <!-- API -->
+          <rect x="30" y="106" width="220" height="60" rx="9" fill="#1f6646" stroke="none" />
+          <text x="140" y="128" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8.5"
+            letter-spacing="0.12em" fill="rgba(255,255,255,0.5)">API LAYER</text>
+          <text x="140" y="150" text-anchor="middle" font-family="'Fraunces',serif" font-size="13.5" fill="white">.NET
+            Web API · FastAPI</text>
+
+          <!-- AUTH badge -->
+          <rect x="186" y="112" width="60" height="18" rx="4" fill="rgba(255,255,255,0.15)" />
+          <text x="216" y="125" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="7.5"
+            fill="rgba(255,255,255,0.8)" letter-spacing="0.08em">Clerk Auth</text>
+
+          <!-- flow lines 2 -->
+          <line x1="88" y1="166" x2="68" y2="204" stroke="#dedad3" stroke-width="1.2" stroke-dasharray="4 3"
+            marker-end="url(#arw)">
+            <animate attributeName="stroke-dashoffset" from="0" to="-14" dur="1.6s" repeatCount="indefinite" />
+          </line>
+          <line x1="192" y1="166" x2="212" y2="204" stroke="#dedad3" stroke-width="1.2" stroke-dasharray="4 3"
+            marker-end="url(#arw)">
+            <animate attributeName="stroke-dashoffset" from="0" to="-14" dur="1.6s" repeatCount="indefinite" />
+          </line>
+
+          <!-- DB left -->
+          <rect x="16" y="204" width="118" height="54" rx="9" fill="#ffffff" stroke="#dedad3" stroke-width="1" />
+          <text x="75" y="224" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8.5"
+            letter-spacing="0.1em" fill="#9c9890">DATABASE</text>
+          <text x="75" y="243" text-anchor="middle" font-family="'Fraunces',serif" font-size="12.5" fill="#141210">MS
+            SQL · Postgres</text>
+
+          <!-- DB right -->
+          <rect x="146" y="204" width="118" height="54" rx="9" fill="#ffffff" stroke="#dedad3" stroke-width="1" />
+          <text x="205" y="224" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8.5"
+            letter-spacing="0.1em" fill="#9c9890">BaaS / CACHE</text>
+          <text x="205" y="243" text-anchor="middle" font-family="'Fraunces',serif" font-size="12.5"
+            fill="#141210">Supabase · Redis</text>
+
+          <!-- flow lines 3 -->
+          <line x1="75" y1="258" x2="100" y2="292" stroke="#dedad3" stroke-width="1.2" stroke-dasharray="4 3">
+            <animate attributeName="stroke-dashoffset" from="0" to="-14" dur="1.8s" repeatCount="indefinite" />
+          </line>
+          <line x1="205" y1="258" x2="180" y2="292" stroke="#dedad3" stroke-width="1.2" stroke-dasharray="4 3">
+            <animate attributeName="stroke-dashoffset" from="0" to="-14" dur="1.8s" repeatCount="indefinite" />
+          </line>
+
+          <!-- INFRA -->
+          <rect x="62" y="292" width="156" height="44" rx="9" fill="#f4f2ee" stroke="#c4bfb7" stroke-width="1" />
+          <text x="140" y="311" text-anchor="middle" font-family="'Geist Mono',monospace" font-size="8.5"
+            letter-spacing="0.1em" fill="#9c9890">INFRA</text>
+          <text x="140" y="327" text-anchor="middle" font-family="'Fraunces',serif" font-size="12.5"
+            fill="#52504b">Azure · AWS · Vercel</text>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <div class="wrap tinted" id="about">
+    <div class="eyebrow reveal">
+      <span class="eyebrow-text">About</span>
+      <div class="eyebrow-line"></div>
+    </div>
+    <div class="about-grid reveal">
+      <div>
+        <h2 class="about-h2">Turning requirements<br>into <em style="font-style:italic;color:var(--accent)">working
+            systems.</em></h2>
+        <p class="about-p">Started in frontend development, built a deep backend foundation in .NET, and now operate
+          across the full stack. Shipped production systems for fintech clients from credit profiling APIs to loan
+          disbursement platforms.</p>
+        <p class="about-p">I value clean architecture, readable code, and products that solve real problems. Keen on new
+          technology and long-term product thinking as an aspiring tech entrepreneur.</p>
+      </div>
+      <div class="fact-table">
+        <div class="fact-row"><span class="fact-label">Based in</span><span class="fact-val">Lalitpur, Nepal</span>
+        </div>
+        <div class="fact-row"><span class="fact-label">Experience</span><span class="fact-val">Frontend →
+            Full-Stack</span></div>
+        <div class="fact-row"><span class="fact-label">Domains</span><span class="fact-val">Fintech · SaaS · Web</span>
+        </div>
+        <div class="fact-row"><span class="fact-label">Core languages</span><span class="fact-val">C# · Python ·
+            TypeScript</span></div>
+        <div class="fact-row"><span class="fact-label">GitHub</span><span class="fact-val"><a
+              href="https://github.com/ishwors" target="_blank" style="color:var(--accent);text-decoration:none">ishwors
+              ↗</a></span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STACK -->
+  <div class="wrap" id="stack">
+    <div class="eyebrow reveal">
+      <span class="eyebrow-text">Tech Stack</span>
+      <div class="eyebrow-line"></div>
+    </div>
+    <div class="stack-grid reveal">
+      <div class="stack-col">
+        <div class="stack-col-label">Frontend</div>
+        <div class="stack-item"><span class="s-dot"></span>React</div>
+        <div class="stack-item"><span class="s-dot"></span>Next.js/Vite.js</div>
+        <div class="stack-item"><span class="s-dot"></span>HTML/CSS</div>
+        <div class="stack-item"><span class="s-dot"></span>TypeScript</div>
+        <div class="stack-item"><span class="s-dot"></span>Tailwind CSS</div>
+      </div>
+      <div class="stack-col">
+        <div class="stack-col-label">Backend</div>
+        <div class="stack-item"><span class="s-dot"></span>.NET Web API</div>
+        <div class="stack-item"><span class="s-dot"></span>ASP.NET Core</div>
+        <div class="stack-item"><span class="s-dot"></span>FastAPI</div>
+        <div class="stack-item"><span class="s-dot"></span>Python</div>
+        <div class="stack-item"><span class="s-dot"></span>C#</div>
+      </div>
+      <div class="stack-col">
+        <div class="stack-col-label">Data & Infra</div>
+        <div class="stack-item"><span class="s-dot"></span>MS SQL</div>
+        <div class="stack-item"><span class="s-dot"></span>PostgreSQL</div>
+        <div class="stack-item"><span class="s-dot"></span>Supabase</div>
+        <div class="stack-item"><span class="s-dot"></span>Redis</div>
+        <div class="stack-item"><span class="s-dot"></span>Azure · AWS · Vercel</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WORK — latest first -->
+  <div class="wrap tinted" id="work">
+    <div class="eyebrow reveal">
+      <span class="eyebrow-text">Selected Work</span>
+      <div class="eyebrow-line"></div>
+    </div>
+
+    <div class="proj-list">
+
+      <!-- 01 SaaS MVP — in progress, most recent -->
+      <div class="proj reveal">
+        <div class="proj-num">01</div>
+        <div>
+          <div class="proj-client">Personal · Entrepreneurship</div>
+          <div class="proj-title">SaaS Product [ MVP ]</div>
+          <p class="proj-desc">Early-stage SaaS product in active design and development. Full ownership from
+            architecture to execution in which frontend in Next.js, backend APIs in FastAPI, authentication via Clerk,
+            and
+            Supabase as the data and infrastructure layer. Building the MVP independently toward launch.</p>
+          <div class="proj-pills">
+            <span class="proj-pill">Next.js</span>
+            <span class="proj-pill">FastAPI</span>
+            <span class="proj-pill">Supabase</span>
+            <span class="proj-pill">Clerk Auth</span>
+            <span class="proj-pill">Python</span>
           </div>
         </div>
+        <span class="proj-badge live">In Progress</span>
       </div>
-    </footer>
 
-    <script src="js/script.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-      ScrollReveal().reveal(".section-about .column", {
-        delay: 20,
-        duration: 1250,
+      <!-- 02 Multilingual site — recent freelance -->
+      <div class="proj reveal">
+        <div class="proj-num">02</div>
+        <div>
+          <div class="proj-client">Freelance · Professional Training & Careers — Nepal & Japan</div>
+          <div class="proj-title">Multilingual Website</div>
+          <p class="proj-desc">Full-stack bilingual website in English and Japanese for a Professional Training &
+            Careers Center operating
+            across Nepal and Japan. Handled i18n architecture, content structure, responsive design, and the backend
+            data layer with Supabase. Complete ownership from design to deployment.</p>
+          <div class="proj-pills">
+            <span class="proj-pill">Next.js</span>
+            <span class="proj-pill">Supabase</span>
+            <span class="proj-pill">Tailwind CSS</span>
+            <span class="proj-pill">i18n</span>
+            <span class="proj-pill">TypeScript</span>
+          </div>
+        </div>
+        <span class="proj-badge">Full-Stack</span>
+      </div>
+
+      <!-- 03 Loan Disbursement -->
+      <div class="proj reveal">
+        <div class="proj-num">03</div>
+        <div>
+          <div class="proj-client">Fintech · Financial Institution · SMEs Loans </div>
+          <div class="proj-title">Loan Disbursement Platform</div>
+          <p class="proj-desc">End-to-end platform enabling credit officers to review and select borrowers surfaced from
+            a credit scoring system. Built the full UI for multi-profile selection, designed REST APIs, architected the
+            database schema, and integrated with external financial institutions to trigger loan disbursement upon
+            approval.</p>
+          <div class="proj-pills">
+            <span class="proj-pill">React</span>
+            <span class="proj-pill">.NET Web API</span>
+            <span class="proj-pill">MS SQL</span>
+            <span class="proj-pill">Stored Procedures</span>
+            <span class="proj-pill">Third-party Integration</span>
+          </div>
+        </div>
+        <span class="proj-badge">Full-Stack</span>
+      </div>
+
+      <!-- 04 Credit Profiling API -->
+      <div class="proj reveal">
+        <div class="proj-num">04</div>
+        <div>
+          <div class="proj-client">Fintech · Credit Profiling · SMEs</div>
+          <div class="proj-title">Credit Profiling API & Database</div>
+          <p class="proj-desc">Complete backend for a mobile credit profiling application used by field assessors.
+            Delivered authentication, multi-step questionnaire flows, and credit scoring APIs consumed by a Flutter app.
+            Designed the full MS SQL schema and stored procedures, shipped end-to-end.</p>
+          <div class="proj-pills">
+            <span class="proj-pill">.NET Web API</span>
+            <span class="proj-pill">MS SQL</span>
+            <span class="proj-pill">Stored Procedures</span>
+            <span class="proj-pill">Auth</span>
+            <span class="proj-pill">Credit Scoring</span>
+          </div>
+        </div>
+        <span class="proj-badge">Backend</span>
+      </div>
+
+      <!-- 05 NIC Asia — oldest -->
+      <div class="proj reveal">
+        <div class="proj-num">05</div>
+        <div>
+          <div class="proj-client">NIC Asia Bank · Nepal</div>
+          <div class="proj-title">NIC Asia Bank [ Frontend ]</div>
+          <p class="proj-desc">Frontend development for a project associated with NIC Asia Bank, one of Nepal's leading
+            commercial banks.</p>
+          <div class="proj-pills">
+            <span class="proj-pill">React</span>
+            <span class="proj-pill">HTML/CSS</span>
+            <span class="proj-pill">JavaScript</span>
+          </div>
+        </div>
+        <span class="proj-badge">Frontend</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-wrap">
+    <div class="cta-box reveal">
+      <div>
+        <h2 class="cta-headline">Open to work<br>and <em>collaboration.</em></h2>
+        <p class="cta-sub">Projects, freelance, full-time, or co-founder conversations welcome.</p>
+      </div>
+      <a href="mailto:hello@ishwors.com.np" class="btn-cta">Say Hello →</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="foot-copy">© 2026 Ishwor Shrestha · Lalitpur, Nepal</span>
+    <div class="foot-links">
+      <a href="https://github.com/ishwors" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/ishwors" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target) }
       });
-      ScrollReveal().reveal(".section-skill .icon-item", {
-        delay: 0,
-        duration: 1250,
-      });
-      ScrollReveal().reveal(".section-work .image-card", {
-        delay: 0,
-        duration: 1250,
-      });
-      ScrollReveal().reveal(".section-contact .column div", {
-        delay: 20,
-        duration: 1250,
-      });
-      ScrollReveal().reveal("footer .main-footer", {
-        delay: 20,
-        duration: 1250,
-      });
-      ScrollReveal().reveal("footer .low-footer", {
-        delay: 10,
-        duration: 1250,
-      });
-    </script>
-  </body>
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+
 </html>
