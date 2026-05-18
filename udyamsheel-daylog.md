@@ -13,13 +13,13 @@
   ---
 -->
 
-# Udyamsheel | Day log
+# Udyamsheel | Day log (Coming Soon)
 
 [Ishwor Shrestha](index.html) | 100 Days of Learning & Building | [Udyamsheel Incubation Center](https://udyamsheel.com/)
 
 ---
 
-## Day 1 — 16 May 2026
+<!-- ## Day 1 — 16 May 2026
 
 ### Orientation & setup
 
@@ -36,7 +36,7 @@ First day at the incubation center. Introduced to the program structure, mentors
 
 #### 📹 Video
 
-<!-- Thumbnail is for GitHub preview only. On the website, only the link URL is embedded as a playable player. -->
+// Thumbnail is for GitHub preview only. On the website, only the link URL is embedded as a playable player.
 [![Watch: Orientation Day Walkthrough](https://ik.imagekit.io/ishwors/default-image.jpg?updatedAt=1778987133242)](https://youtu.be/ExgNR94SrfI?si=339PGS2V7BmRYM1_)
 *Orientation day walkthrough — plays inline on the day log page.*
 
@@ -47,20 +47,14 @@ First day at the incubation center. Introduced to the program structure, mentors
 print("100 days started. Let's go!")
 ```
 
-<!-- 
-  Replace `python` with your language: js, ts, html, css, bash, sql, json, etc.
-  Add a short comment above each snippet explaining what it does.
-  Repeat the fenced block for multiple snippets.
--->
-
 #### 📊 Progress & Stats
 
-| Metric | Value |
-|---|---|
-| Hours logged | 6 |
-| Topics covered | 3 |
-| Blockers | 1 |
-| Mood | 😊 Energised |
+| Metric         | Value       |
+| -------------- | ----------- |
+| Hours logged   | 6           |
+| Topics covered | 3           |
+| Blockers       | 1           |
+| Mood           | 😊 Energised |
 
 #### 🔗 Resources & Links
 
@@ -73,9 +67,9 @@ print("100 days started. Let's go!")
 - [ ] Task two
 - [ ] Task three
 
-> **Note:** Keep a running list of blockers and wins here. Quick reflections stand out when you scroll back through the hundred days.
+> **Note:** Keep a running list of blockers and wins here. Quick reflections stand out when you scroll back through the hundred days. -->
 
----
+<!-- ---
 
 ## Day 2 — 17 May 2026
 
@@ -96,7 +90,7 @@ Write a short summary of what you did today at Udyamsheel.
 
 #### 📹 Video
 
-<!-- Put your YouTube watch URL in the link (thumbnail image is optional, ignored on the website). -->
+// Put your YouTube watch URL in the link (thumbnail image is optional, ignored on the website).
 [![Watch: Day 2 Session](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 *Day 2 session — embedded YouTube player on the day log page.*
 
@@ -109,12 +103,12 @@ console.log("What did you build or learn today?");
 
 #### 📊 Progress & Stats
 
-| Metric | Value |
-|---|---|
-| Hours logged |  |
-| Topics covered |  |
-| Blockers |  |
-| Mood |  |
+| Metric         | Value |
+| -------------- | ----- |
+| Hours logged   |       |
+| Topics covered |       |
+| Blockers       |       |
+| Mood           |       |
 
 #### 🔗 Resources & Links
 
@@ -125,6 +119,6 @@ console.log("What did you build or learn today?");
 - [ ] Task one
 - [ ] Task two
 
-> **Note:** Reflections, reminders, or things to revisit tomorrow.
+> **Note:** Reflections, reminders, or things to revisit tomorrow. -->
 
 ---
