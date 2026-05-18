@@ -5,10 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning Progress — Udyamsheel Day Log · Ishwor Shrestha</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Geist:wght@300;400;500&family=Geist+Mono:wght@400&display=swap"
-    rel="stylesheet">
 
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <link rel="stylesheet" href="css/styles.css" />
@@ -70,91 +66,14 @@
   <header class="daylog-header reveal">
     <h1>Udyamsheel | Day log</h1>
     <p class="daylog-header-sub">
-      <a href="index.html">Ishwor Shrestha</a> | 100 Days of Learning & Building | Udyamsheel Incubation Center
+      <a href="index.html">Ishwor Shrestha</a> | 100 Days of Learning & Building | <a href="https://udyamsheel.com/">Udyamsheel Incubation Center</a>
     </p>
     <hr class="daylog-header-rule">
   </header>
 
   <main class="daylog-wrap">
-
-    <!--
-      ENTRY TEMPLATE — copy this <article> for each day:
-      1. Update daylog-day, daylog-date (datetime + visible text), title, body
-      2. Add screenshots with <figure class="daylog-figure"> (remove block if none)
-      3. Use <aside class="daylog-note"> for personal notes / reflections
-    -->
-    <article class="daylog-entry reveal">
-      <aside class="daylog-marker" aria-label="Day 1">
-        <span class="daylog-day">Day 1</span>
-        <time class="daylog-date" datetime="2026-05-16">16 May 2026</time>
-      </aside>
-      <div class="daylog-content">
-        <h2>Orientation &amp; setup</h2>
-        <p>
-          First day at the incubation center. Introduced to the program structure, mentors, and fellow cohort members.
-          Set up the development environment and outlined goals for the hundred-day journey.
-        </p>
-        <h3>What I covered</h3>
-        <ul>
-          <li>Program overview and expectations for the 100-day track</li>
-          <li>Local dev environment: editor, Git, and project folder structure</li>
-          <li>Planned weekly milestones for learning and building</li>
-        </ul>
-
-        <!-- Screenshot: save image under assets/daylog/ and set src + alt -->
-        <figure class="daylog-figure">
-          <img src="assets/daylog/day-01.jpg" alt="Development environment setup on day 1">
-          <figcaption>Local workspace after initial setup — editor, terminal, and project repo.</figcaption>
-        </figure>
-
-        <aside class="daylog-note">
-          <span class="daylog-note-label">Note</span>
-          <p>
-            Keep a running list of blockers and wins here. This box is styled separately from the main log so
-            quick reflections stand out when you scroll back through the hundred days.
-          </p>
-        </aside>
-      </div>
-    </article>
-
-    <article class="daylog-entry reveal">
-      <aside class="daylog-marker" aria-label="Day 2">
-        <span class="daylog-day">Day 2</span>
-        <time class="daylog-date" datetime="2026-05-17">17 May 2026</time>
-      </aside>
-      <div class="daylog-content">
-        <h2>Your title for day 2</h2>
-        <p>
-          Write a short summary of what you did today at Udyamsheel.
-        </p>
-        <h3>Subheading (optional)</h3>
-        <p>
-          More detail, learnings, or tasks completed.
-        </p>
-        <ul>
-          <li>Bullet point one</li>
-          <li>Bullet point two</li>
-        </ul>
-
-        <!-- Multiple screenshots: wrap figures in daylog-figures -->
-        <div class="daylog-figures">
-          <figure class="daylog-figure">
-            <img src="assets/daylog/day-02-a.jpg" alt="Screenshot description">
-            <figcaption>First screenshot caption.</figcaption>
-          </figure>
-          <figure class="daylog-figure">
-            <img src="assets/daylog/day-02-b.jpg" alt="Another screenshot">
-            <figcaption>Second screenshot caption.</figcaption>
-          </figure>
-        </div>
-
-        <aside class="daylog-note">
-          <span class="daylog-note-label">Note</span>
-          <p>Reflections, reminders, or things to revisit tomorrow.</p>
-        </aside>
-      </div>
-    </article>
-
+    <p class="daylog-status" id="daylog-loading">Loading entries from <code>udyamsheel-daylog.md</code>…</p>
+    <div id="daylog-entries"></div>
   </main>
 
   <footer>
@@ -165,13 +84,21 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/daylog.js"></script>
   <script>
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target) }
-      });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+    const headerReveal = document.querySelector(".daylog-header.reveal");
+    if (headerReveal) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("visible");
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      io.observe(headerReveal);
+    }
   </script>
 </body>
 
